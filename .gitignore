@@ -1,0 +1,40 @@
+# This is a standard .gitignore file for a .NET project.
+# It will ignore all the temporary build, cache, and user-specific files.
+
+# --- General ---
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# --- IDE Folders ---
+# Ignore Visual Studio and VS Code specific folders
+.vs/
+.vscode/
+
+# --- Build Results ---
+# This is the most important part.
+# It will ignore all the 'bin/' and 'obj/' folders in all your projects.
+[Bb]in/
+[Oo]bj/
+
+# --- Test Results ---
+# This will ignore the 'TestResults/' folder in your Todo.Test project.
+[Tt]est[Rr]esult*/
+[Tt]est[Oo]utput*/
+
+# --- OS-generated files ---
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+
+# --- Build/Package Cache Files ---
+# These are often in the 'obj/' folder, but it's good to ignore them explicitly.
+project.assets.json
+project.nuget.cache
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# --- Log files ---
+*.log
