@@ -1,6 +1,6 @@
-using Todo.Model.Models;
+using Clarity.WPF.Models.Enums;
 
-namespace Todo.Model.ViewModels
+namespace Clarity.WPF.Models.DTOs
 {
     // this will pass information from the taskview to the taskservice
     // collects only the nessaecary dta

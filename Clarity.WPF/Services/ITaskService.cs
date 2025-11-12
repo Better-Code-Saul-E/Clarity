@@ -1,8 +1,9 @@
 using System.Collections.Generic;
-using Todo.Model.ViewModels;
-using Todo.Model.Models;
+using Clarity.WPF.Models.DTOs;
+using Clarity.WPF.ViewModels;
+using Clarity.WPF.Models;
 
-namespace Todo.Model.Interfaces
+namespace Clarity.WPF.Services
 {
     // The shit that app itsself has to do
     public interface ITaskService

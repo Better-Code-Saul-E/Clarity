@@ -1,7 +1,7 @@
-using Todo.Model.Models;
+using Clarity.WPF.Models;
 using System.Collections.Generic;
 
-namespace Todo.Model.Interfaces
+namespace Clarity.WPF.Services
 {
     // the shit the database HAS TO DO!
     public interface ITaskRepo : ITaskReader, ITaskWriter

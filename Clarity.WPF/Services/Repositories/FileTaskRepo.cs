@@ -1,7 +1,7 @@
-using Todo.Model.Models;
-using Todo.Model.Interfaces;
+using Clarity.WPF.Models;
+using Clarity.WPF.Services;
 
-namespace Todo.DataAccess
+namespace Clarity.WPF.Services.Repositories
 {
     // IDEA: use guid instead of int for IDs
     // IDEA: initialze the lists inside the constructor

@@ -1,4 +1,4 @@
-namespace Todo.Model.Models
+namespace Clarity.WPF.Models.Enums
 {
     public enum TaskPriority
     {

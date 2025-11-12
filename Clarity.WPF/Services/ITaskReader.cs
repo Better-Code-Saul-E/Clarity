@@ -1,6 +1,6 @@
-using Todo.Model.Models;
+using Clarity.WPF.Models;
 
-namespace Todo.Model.Interfaces
+namespace Clarity.WPF.Services
 {
     public interface ITaskReader
     {

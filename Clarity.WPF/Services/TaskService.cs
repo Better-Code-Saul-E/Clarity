@@ -1,9 +1,7 @@
-using Todo.Model;
-using Todo.Model.Interfaces;
-using Todo.Model.ViewModels;
-using Todo.Model.Models;
+using Clarity.WPF.Models.DTOs;
+using Clarity.WPF.Models;
 
-namespace Todo.Controller.Service
+namespace Clarity.WPF.Services
 {
     /// <summary>
     /// This class will handle all communcation with the database
